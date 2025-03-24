@@ -6,15 +6,23 @@
     font-size: 50dvh;
 }
 
-
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'myFirstFont', sans-serif;
 }
+.container2:hover{ 
+    background-color: gray; /* Example effect */
+    transform: scale(1.05);      /* Slight zoom effect */
+    transition: all 0.3s ease;   /* Smooth transition */
+}
 
 .container2{ 
+    align-items: center;
     font-family: 'myFirstFont', sans-serif;
+    border-style: solid;
+    width: 165px;
+    border-radius: 30px;
     
 }
