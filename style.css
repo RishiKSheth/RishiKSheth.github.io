@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url('sansation_light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50dvh;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'myFirstFont', sans-serif;
+}
