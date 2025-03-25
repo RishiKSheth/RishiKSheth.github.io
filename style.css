@@ -13,16 +13,18 @@
     font-family: 'myFirstFont', sans-serif;
 }
 .container2:hover{ 
-    background-color: gray; /* Example effect */
-    transform: scale(1.05);      /* Slight zoom effect */
-    transition: all 0.3s ease;   /* Smooth transition */
+    background-color: gray;  
+    transform: scale(1.05);      
+    transition: all 0.3s ease;  
 }
 
 .container2{ 
     align-items: center;
     font-family: 'myFirstFont', sans-serif;
     border-style: solid;
-    width: 165px;
-    border-radius: 30px;
-    
+    height: 320px; 
+    width: 260px;
+    border-radius: 10px;
+    white-space: nowrap;
+    display: flex; 
 }
