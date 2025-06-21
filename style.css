@@ -12,12 +12,13 @@ body{
 }
 /*header for Hello I'm Rishi Sheth*/
 .header {
-  padding: 60px;
+  padding: 190px;
   text-align: center;
   background: #1abc9c;
   color: black;
   font-size: 30px;
   font-family: 'Pixelify Sans', sans-serif;
+  padding-top: 1%;
 }
 /*header for the name on the top left corner*/
 .name{ 
@@ -25,6 +26,30 @@ body{
   text-align: left;
   border-color: black;
   border-bottom: 5px solid black;
+  border-width: 100%;
+}
+/*stylizing for projects*/
+.projects{ 
+  padding: 20px; 
+  text-align: left;
+  color: black; 
+  font-size: 30px; 
+  font-family: 'Pixelify Sans', sans-serif;
+  border: black;
+  border-width: 100%;
+}
+/*stylizing list for projects*/
+.liTwo{
+  padding: 30px;
+  text-align: left;
+  color: black;
+  font-size: 30px;
+  font-family: 'Pixelify Sans', sans-serif;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 30%;                  
+  box-sizing: border-box; 
+  display: inline-block;
 }
 
 /*fade in animation*/
