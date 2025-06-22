@@ -16,7 +16,7 @@
   font-family: 'Pixelify Sans', sans-serif;
   padding-top: 1%;
 }
-/*header for the name on the top left corner nav bar*/
+/*nav bar*/
 .name{  
   position: sticky;
   top: 0;
@@ -39,6 +39,11 @@
 /*makes sure that link doesn't go purple when clicked*/
 .link{
   color: blue; 
+}
+
+.linkForNav{ 
+  color: black; 
+  text-decoration: white;
 }
 /*stylizing for projects*/
 .projects{ 
