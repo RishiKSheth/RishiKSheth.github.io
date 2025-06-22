@@ -78,7 +78,7 @@ html {
 }
 /*stylizing list for projects*/
 .liTwo{
-  padding: 30px;
+  padding: 40px;
   text-align: left;
   color: black;
   font-size: 30px;
@@ -87,7 +87,7 @@ html {
   border-radius: 5px;
   width: 30%;                  
   box-sizing: border-box; 
-  display: inline-block;
+  display: inline-table;
   max-width: 100%; 
   height: auto; 
 }
