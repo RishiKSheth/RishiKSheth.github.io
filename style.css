@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
-body{ 
-  text-align: center;
-}
-
 .headerForProjects{ 
   padding: 20px; 
   text-align: left;
@@ -14,19 +10,35 @@ body{
 .header {
   padding: 190px;
   text-align: center;
-  background: #1abc9c;
-  color: black;
+  background: black;
+  color: white;
   font-size: 30px;
   font-family: 'Pixelify Sans', sans-serif;
   padding-top: 1%;
 }
-/*header for the name on the top left corner*/
-.name{ 
-  padding: 5px; 
-  text-align: left;
-  border-color: black;
-  border-bottom: 5px solid black;
-  border-width: 100%;
+/*header for the name on the top left corner nav bar*/
+.name{  
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 20px; 
+  font-size: 20px;
+  font-family: 'Pixelify Sans', sans-serif; 
+  display: flex; 
+  gap: 40px; 
+}
+/*border for each nav bar element*/
+.name_spacing{
+  opacity: 0.3;
+  transition: 0.3s; 
+}
+/*animation for hover*/
+.name_spacing:hover{ 
+  opacity: 1; 
+}
+/*makes sure that link doesn't go purple when clicked*/
+.link{
+  color: blue; 
 }
 /*stylizing for projects*/
 .projects{ 
