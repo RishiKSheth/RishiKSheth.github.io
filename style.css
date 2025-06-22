@@ -5,6 +5,9 @@
   color: black; 
   font-size: 30px; 
   font-family: 'Pixelify Sans', sans-serif;
+  text-decoration: none;
+  max-width: 100%; 
+  height: auto; 
 }
 /*header for Hello I'm Rishi Sheth*/
 .header {
@@ -15,6 +18,9 @@
   font-size: 30px;
   font-family: 'Pixelify Sans', sans-serif;
   padding-top: 1%;
+  text-decoration: none;
+  max-width: 100%; 
+  height: auto; 
 }
 /*nav bar*/
 .name{  
@@ -26,24 +32,37 @@
   font-family: 'Pixelify Sans', sans-serif; 
   display: flex; 
   gap: 40px; 
+  text-decoration: none;
+  max-width: 100%; 
+  height: auto; 
 }
 /*border for each nav bar element*/
 .name_spacing{
   opacity: 0.3;
   transition: 0.3s; 
+  text-decoration: none;
+  max-width: 100%; 
+  height: auto; 
 }
 /*animation for hover*/
 .name_spacing:hover{ 
   opacity: 1; 
+  text-decoration: none;
+  max-width: 100%; 
+  height: auto; 
 }
 /*makes sure that link doesn't go purple when clicked*/
 .link{
   color: blue; 
 }
+/*added smooth scrolling for nav bar*/
+html {
+  scroll-behavior: smooth;
+}
 
 .linkForNav{ 
   color: black; 
-  text-decoration: white;
+  text-decoration: none;
 }
 /*stylizing for projects*/
 .projects{ 
@@ -54,6 +73,8 @@
   font-family: 'Pixelify Sans', sans-serif;
   border: black;
   border-width: 100%;
+  max-width: 100%; 
+  height: auto; 
 }
 /*stylizing list for projects*/
 .liTwo{
@@ -67,6 +88,8 @@
   width: 30%;                  
   box-sizing: border-box; 
   display: inline-block;
+  max-width: 100%; 
+  height: auto; 
 }
 
 /*fade in animation*/
