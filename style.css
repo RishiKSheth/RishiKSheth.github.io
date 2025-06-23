@@ -22,6 +22,32 @@
   max-width: 100%; 
   height: auto; 
 }
+/*skills stylizing*/
+.skills{ 
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 30px;
+  padding: 20px; 
+}
+/*rounded images + animations*/
+.imageContainer{ 
+  display: inline-block; 
+}
+.imagestylizing{ 
+  border-radius: 100px; 
+}
+.imagestylizing:hover{ 
+  opacity: 0.6; 
+  transition: 0.8s; 
+}
+.centered{ 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+
+
 /*nav bar*/
 .name{  
   position: sticky;
@@ -91,6 +117,7 @@ html {
   max-width: 100%; 
   height: auto; 
 }
+
 
 /*fade in animation*/
 .fade-in-image { 
