@@ -28,6 +28,12 @@
   font-size: 30px;
   padding: 20px; 
 }
+
+.contactMe{ 
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 30px;
+  padding: 20px; 
+}
 /*rounded images + animations*/
 .imageContainer{ 
   display: inline-block; 
